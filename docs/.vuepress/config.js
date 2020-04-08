@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Zazzzf',
-  description: '加油，程序员',
+  description: '有志者，事竟成',
   locales: { '/': { lang: 'zh' } },
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -41,6 +41,7 @@ module.exports = {
     sidebar: 'auto',
     nav: [
       { text: '主页', link: '/', icon: 'reco-home' },
+      { text: '组件库', link: '/Collect/组件收藏', icon: 'reco-npm' },
       // { text: '时间线', link: '/timeLine/', icon: 'reco-date' },
       { text: 'GitHub', link: 'https://github.com/zazzzf', icon: 'reco-github' },
     ],
