@@ -43,7 +43,14 @@ module.exports = {
       { text: '主页', link: '/', icon: 'reco-home' },
       { text: '组件库', link: '/Collect/组件收藏', icon: 'reco-npm' },
       // { text: '时间线', link: '/timeLine/', icon: 'reco-date' },
-      { text: 'GitHub', link: 'https://github.com/zazzzf', icon: 'reco-github' },
+      { text: 'Contact',items: [
+          { 
+            text: 'Github', link: 'https://github.com/zazzzf', icon: 'reco-github'
+          },
+          {
+            text: '简历', link: 'http://resume.zzfcode.club/', icon: 'reco-account'}
+        ],  icon: 'reco-mail'
+      },
     ],
     blogConfig: {
       category: {
@@ -73,6 +80,8 @@ module.exports = {
       avatar: 'wavatar',
       notify: true,
     },
+    record:"陕ICP备19023155号-1",
+    startYear: '2019'
   },
   markdown: {
     lineNumbers: true
