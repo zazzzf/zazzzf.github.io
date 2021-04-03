@@ -49,7 +49,8 @@ module.exports = {
             text: 'Github', link: 'https://github.com/zazzzf', icon: 'reco-github'
           },
           {
-            text: '简历', link: 'http://resume.zzfcode.club/', icon: 'reco-account'}
+            text: 'Gitee', link: 'https://gitee.com/zhaozhenfa1995', icon: 'reco-account'
+          }
         ],  icon: 'reco-mail'
       },
     ],
