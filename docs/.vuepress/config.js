@@ -8,8 +8,8 @@ module.exports = {
   ],
   dest: './dist',
   theme: 'reco',
-  plugins: {
-      'vuepress-plugin-helper-live2d': {
+  plugins: [
+      ['vuepress-plugin-helper-live2d', {
         live2d: {
           // 是否启用(关闭请设置为false)(default: true)
           enable: true,
@@ -30,11 +30,8 @@ module.exports = {
             opacity: 0.8 // 模型透明度(default: 0.8)
           }
         }
-      },
-    '@vuepress/medium-zoom': {
-        selector: 'img.zoom-custom-imgs'
-    }
-  },
+      }]
+  ],
   themeConfig: {
     type: 'blog',
     huawei: false,
